@@ -8,7 +8,7 @@ import Timeline from './lib/media/section-assets/timeline.svg';
 function App() {
   return (
     <div className="app">
-      <ViewContainer className="relative overflow-x-hidden">
+      <ViewContainer className="relative">
         <img
           src={Timeline}
           className="absolute -top-72 -left-24 max-md:-left-[70px] -z-10"
